@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
         mWebView.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageFinished(WebView view, String url) {
-                String js = "fetch('https://gist.githubusercontent.com/rimar1337/cf96ee982afe28854281193728240c41/raw/84d7aabccab70dd89cd2053586d7e34ad4557c08/style.css')" +
+                String js = "fetch('https://gist.githubusercontent.com/rimar1337/cf96ee982afe28854281193728240c41/raw/style.css')" +
                         ".then(response => response.text())" +
                         ".then(css => {" +
                         "    const style = document.createElement('style');" +
